@@ -1,0 +1,13 @@
+{% extends 'layout.html' %}
+{% block content %}
+<div class="container">
+    <h1>Text Analysis Result </h1>
+    <p> Length of your text: {{ text_len }}</p>
+    <p> Most common words:</p>
+    <ul class="most-common">
+    {% for word, quantity in counts %}
+    <li class="counts">The word: "{{word}}" appeared {{quantity}} times.</li>{% endfor %}</ul>
+</div>
+
+
+{% endblock %}

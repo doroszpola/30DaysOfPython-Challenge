@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<person gender="female">
+  <name>Pola</name>
+  <country>Poland</country>
+  <city>Lodz</city>
+  <skills>
+    <skill>Java</skill>
+    <skill>Python</skill>
+  </skills>
+</person>

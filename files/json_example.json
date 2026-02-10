@@ -1,0 +1,9 @@
+{
+    "name": "Pola",
+    "country": "Poland",
+    "city": "Lodz",
+    "skills": [
+        "Java",
+        "Python"
+    ]
+}
